@@ -8,17 +8,18 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Introduzca el primer nombre: ");
-        String nombre = sc.nextLine();
-        System.out.println("--------------------------------------");
+        System.out.println("Primer numero: ");
+        int primerNumero = sc.nextInt();
 
+        System.out.println("Segundo numero: ");
+        int segundoNumero = sc.nextInt();
 
-        System.out.println("Ingrese su edad");
-        long  edad = sc.nextLong();
+        System.out.println("Tercer numero: ");
+        int tercerNumero = sc.nextInt();
 
-        System.out.println("--------------------------------------");
+        double promedio= (primerNumero + segundoNumero + tercerNumero) /3D;
 
-        System.out.println("Su nombre es " + nombre+" y su edad es " + edad);
+        System.out.println("El resultado es: "+promedio);
 
         sc.close();
     }
