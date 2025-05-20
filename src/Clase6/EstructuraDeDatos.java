@@ -1,5 +1,8 @@
 package Clase6;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class EstructuraDeDatos {
     public static void main(String[] args) {
 
@@ -7,7 +10,7 @@ public class EstructuraDeDatos {
         // Arreglos,listas doblemente enlazadas, map, listas , colas,  tuplas, pilas, , grafos, arboles.
 
         // ARREGLOS
-        //  finitos. NO ES DINAMICA.
+        // FINITOS. NO ES DINAMICA.
         // CONDICION 1- YO DEBO DEFINIR EL TAMAÑO
         // CONDICION 2- DEBO DEFINIR EL TIPO DE DATO
 
@@ -27,7 +30,17 @@ public class EstructuraDeDatos {
         System.out.println(miAreglo[3]);
 
 
+        //LISTAS
+        //ESTRUCTURAS DINAMICAS mas pesadas
 
+        List<String> estudiantes= new ArrayList<String>();
 
+        estudiantes.add("Mauricio");
+        estudiantes.add("Carlos");
+        estudiantes.add("Andres");
+        System.out.println("---------------------");
+        System.out.println(estudiantes.size());
+        estudiantes.remove("Carlos");
+        System.out.println(estudiantes.size());
     }
 }
