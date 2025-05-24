@@ -53,7 +53,7 @@ public class Ciclos {
             contador++;
         }
         System.out.println("-----------recorrer con stream------------");
-     //  Arrays.stream(estudiantes).forEach(System.out::println);
+     // Arrays.stream(estudiantes).forEach(System.out::println);
 
     }
 
